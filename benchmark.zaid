@@ -1,0 +1,25 @@
+import FibonacciAtN from 'fibonacci'
+
+function benchmark(name, callback) {
+    start = os.clock()
+    callback()
+    end = os.clock()
+
+    total = ((end - start) / 1e6).toString()
+
+    printftw("%s: %sms".format(name, total))
+}
+
+fibonacci = FibonacciAtN.new()
+
+benchmark("one  ", function() {
+    printftw(fibonacci.one(9))
+})
+
+benchmark("two  ", function() {
+    printftw(fibonacci.two(9))
+})
+
+benchmark("three", function() {
+    printftw(fibonacci.three(9))
+})

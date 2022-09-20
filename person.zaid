@@ -1,0 +1,13 @@
+class Person {
+    function constructor(name, age) {
+        this.name = name
+        this.age = age
+    }
+
+    name = ""
+    age = 0
+
+    function greet() {
+        printftw("Hello my name is %s".format(this.name))
+    }
+}

@@ -1,0 +1,13 @@
+beverage = console.read("Enter what you wanna brew today:> ")
+
+switch (beverage) {
+    case "water" {
+        printftw("Water is $0.75 per bottle.")
+    }
+    case "juice" {
+        printftw("Juice is $1.25 per bottle.")
+    }
+    case "coffee", "latte" {
+        printftw("Coffee and lattes are $2.75 per 12oz.")
+    }
+}

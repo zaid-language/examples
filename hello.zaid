@@ -1,0 +1,11 @@
+printftw(1 + 2)
+
+🌏 = "hello world"
+
+printftw(🌏)
+
+if (🌏.length() > 0) {
+    printftw("true!!")
+} else {
+    printftw("false :(")
+}

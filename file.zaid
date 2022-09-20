@@ -1,0 +1,5 @@
+io.write("hello.txt","hello from zaid!")
+
+content = io.read("hello.txt")
+
+printftw(content)

@@ -1,0 +1,4 @@
+import Person from 'person'
+
+john = Person.new("John", 36)
+john.greet()

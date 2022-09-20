@@ -1,0 +1,22 @@
+// expected value: 100
+printftw(math.abs(-100))
+// expected value: 0
+printftw(math.cos(math.pi / 2).round())
+// expected value: true
+printftw(math.isNegative(-100))
+// expected value: true
+printftw(math.isPositive(100))
+// expected value: false
+printftw(math.isZero(5))
+// expected value: 0
+printftw(math.sin(math.pi).round())
+// expected value: 0
+printftw(math.tan(0).round())
+// expected value: 3.14
+printftw(math.pi.round(2))
+// expected value: 2.72
+printftw(math.e.round(2))
+// expected value: 0.00000000000000022204460492503130808472633361816
+printftw(math.epsilon)
+// expected value: 6.28
+printftw(math.tau.round(2))

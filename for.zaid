@@ -1,0 +1,16 @@
+bob = ["b", "o", "b"]
+
+for (key, value in bob) {
+    printftw(key)
+    printftw(value)
+}
+
+foobar = {
+    "name": "Zaid",
+    "type": "Language"
+}
+
+for (key, value in foobar) {
+    printftw(key)
+    printftw(value)
+}
